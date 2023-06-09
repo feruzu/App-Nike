@@ -1,0 +1,149 @@
+@import '../variables/variables';
+@import '../base/mixins';
+
+header img {
+    filter: invert(100%) sepia(13%) saturate(2141%) hue-rotate(299deg) brightness(103%) contrast(91%);
+}
+
+.btn-close {
+    filter: invert(100%) sepia(13%) saturate(2141%) hue-rotate(299deg) brightness(103%) contrast(91%);
+    margin-left: 90%;
+    margin-top: 0%!important;
+}
+
+div.container-fluid {
+    margin-inline: 10%;
+}
+
+main.contenedor {
+    position: relative;
+}
+h1.titulo-nike {
+    font-family: $titulos;
+    font-size: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: $color-beige;
+    opacity: 90%;   
+}
+
+div.calzado-portada {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    transform: rotate(-50deg);
+}
+
+.calzado-portada img{
+    width: 700px;
+    height: 700px;
+} 
+
+
+/*  Responsive */
+
+@include tel {
+    h1.titulo-nike {
+        font-size: 150px;
+    }
+
+.calzado-portada img{
+    width: 300px;
+    height: 300px;
+} 
+
+div.calzado-portada {
+    top: 30%;
+    left: 10%;
+}
+}
+
+@include telefono {
+    h1.titulo-nike {
+        font-size: 200px;
+    }
+
+.calzado-portada img{
+    width: 400px;
+    height: 400px;
+} 
+
+div.calzado-portada {
+    top: 30%;
+    left: 10%;
+}
+
+}
+
+@include iPad {
+    h1.titulo-nike {
+        font-size: 250px;
+    }
+
+.calzado-portada img{
+    width: 500px;
+    height: 500px;
+} 
+
+div.calzado-portada {
+    top: 20%;
+    left: 10%;
+}
+}
+
+@include tablet {
+    h1.titulo-nike {
+        font-size: 280px;
+    }
+
+.calzado-portada img{
+    width: 600px;
+    height: 600px;
+} 
+
+div.calzado-portada {
+    top: 20%;
+    left: 10%;
+}
+}
+
+@include desktop1 {
+    h1.titulo-nike {
+        font-size: 370px;
+    }
+
+.calzado-portada img{
+    width: 600px;
+    height: 600px;
+} 
+
+div.calzado-portada {
+    top: 10%;
+    left: 20%;
+}
+}
+
+
+@include desktop {
+    h1.titulo-nike {
+        font-size: 400px;
+    }
+
+.calzado-portada img{
+    width: 700px;
+    height: 700px;
+} 
+
+div.calzado-portada {
+    top: 10%;
+    left: 25%;
+}
+}
+
+
+
+
