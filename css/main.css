@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0; }
 
+/* Media Queries */
 /*  Colores primarios */
 /*  Fuentes  */
 /* Media Queries */
@@ -18,7 +19,7 @@ div.container-fluid {
   margin-inline: 10%; }
 
 main.contenedor {
-  position: relative; }
+  position: absolute; }
 
 h1.titulo-nike {
   font-family: "Montserrat", sans-serif;
@@ -103,4 +104,143 @@ div.calzado-portada {
     top: 10%;
     left: 25%; } }
 
+/*  Colores primarios */
+/*  Fuentes  */
 /* Media Queries */
+section.nosotros {
+  margin-top: 1000px;
+  text-align: center;
+  height: 70vh; }
+
+section.nosotros h1 {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  margin: 0 auto;
+  color: "Montserrat", sans-serif;
+  padding: 10px; }
+
+section.nosotros img#championes.championes, img#corriendo.corriendo {
+  width: 90px;
+  height: 90px;
+  margin-left: -400px;
+  margin-top: 100px;
+  position: absolute;
+  filter: invert(19%) sepia(77%) saturate(2321%) hue-rotate(344deg) brightness(118%) contrast(104%); }
+
+img#corriendo.corriendo {
+  margin-top: 300px; }
+
+section.nosotros img#pesas.pesas, img#ejercicio.ejercicio {
+  width: 90px;
+  height: 90px;
+  margin-left: 350px;
+  margin-top: 100px;
+  position: absolute;
+  filter: invert(19%) sepia(77%) saturate(2321%) hue-rotate(344deg) brightness(118%) contrast(104%); }
+
+img#ejercicio.ejercicio {
+  margin-top: 300px; }
+
+/*  Responsive */
+@media (min-width: 320px) {
+  section.nosotros {
+    margin-top: 900px; }
+  section.nosotros h1 {
+    font-size: 30px; }
+  section.nosotros img#championes.championes, img#corriendo.corriendo {
+    width: 60px;
+    height: 60px;
+    margin-left: -135px;
+    margin-top: 80px; }
+  img#corriendo.corriendo {
+    margin-top: 200px; }
+  section.nosotros img#pesas.pesas, img#ejercicio.ejercicio {
+    width: 60px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 80px; }
+  img#ejercicio.ejercicio {
+    margin-top: 200px; } }
+
+@media (min-width: 480px) {
+  section.nosotros {
+    margin-top: 950px; }
+  section.nosotros h1 {
+    font-size: 35px; }
+  section.nosotros img#championes.championes, img#corriendo.corriendo {
+    width: 60px;
+    height: 60px;
+    margin-left: -200px;
+    margin-top: 80px; }
+  img#corriendo.corriendo {
+    margin-top: 300px; }
+  section.nosotros img#pesas.pesas, img#ejercicio.ejercicio {
+    width: 60px;
+    height: 60px;
+    margin-left: 150px;
+    margin-top: 80px; }
+  img#ejercicio.ejercicio {
+    margin-top: 300px; } }
+
+@media (min-width: 650px) {
+  section.nosotros {
+    margin-top: 950px; }
+  section.nosotros img#championes.championes, img#corriendo.corriendo {
+    width: 70px;
+    height: 70px;
+    margin-left: -200px;
+    margin-top: 80px; }
+  img#corriendo.corriendo {
+    margin-top: 300px; }
+  section.nosotros img#pesas.pesas, img#ejercicio.ejercicio {
+    width: 70px;
+    height: 70px;
+    margin-left: 150px;
+    margin-top: 80px; }
+  img#ejercicio.ejercicio {
+    margin-top: 300px; } }
+
+@media (min-width: 768px) {
+  section.nosotros {
+    margin-top: 990px; }
+  section.nosotros img#championes.championes, img#corriendo.corriendo {
+    width: 80px;
+    height: 80px;
+    margin-left: -300px;
+    margin-top: 80px; }
+  img#corriendo.corriendo {
+    margin-top: 300px; }
+  section.nosotros img#pesas.pesas, img#ejercicio.ejercicio {
+    width: 80px;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 80px; }
+  img#ejercicio.ejercicio {
+    margin-top: 300px; } }
+
+@media (min-width: 888px) {
+  section.nosotros {
+    margin-top: 950px; } }
+
+@media (min-width: 1280px) {
+  section.nosotros {
+    margin-top: 1000px; }
+  section.nosotros h1 {
+    font-size: 50px; }
+  section.nosotros img#championes.championes, img#corriendo.corriendo {
+    width: 90px;
+    height: 90px;
+    margin-left: -400px;
+    margin-top: 100px; }
+  img#corriendo.corriendo {
+    margin-top: 300px; }
+  section.nosotros img#pesas.pesas, img#ejercicio.ejercicio {
+    width: 90px;
+    height: 90px;
+    margin-left: 350px;
+    margin-top: 100px; }
+  img#ejercicio.ejercicio {
+    margin-top: 300px; } }
