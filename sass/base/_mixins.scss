@@ -1,3 +1,5 @@
+@import '../variables/variables';
+
 /* Media Queries */
 
 
@@ -39,3 +41,22 @@
     }
 }
 
+
+
+/*  Boton */
+
+@mixin boton() {
+    background-color: $titulo-black;
+    padding: 10px 20px;
+    border: none;
+
+    &:hover {
+        opacity: 70%;
+    }
+
+    &:active {
+        background-color: $color-rojo;
+        opacity: 100%;
+    }
+    
+}
