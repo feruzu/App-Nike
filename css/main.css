@@ -194,6 +194,27 @@ section.nosotros img {
 .calzados a.dropdown-item:active {
   background-color: #DD2020; }
 
+.productos {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-inline: 10%; }
+
+.productos .card-body {
+  margin: 20px;
+  width: 250px;
+  padding: 0; }
+
+.productos .card {
+  margin: 2%;
+  margin-top: 5%;
+  border: none; }
+
+.productos .card img {
+  width: 250px; }
+
 /*  Responsive */
 @media (min-width: 320px) {
   .calzados #filtrar {

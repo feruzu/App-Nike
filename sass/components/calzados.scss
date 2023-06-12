@@ -30,6 +30,33 @@
     background-color: $color-rojo;
 }
 
+// Productos
+
+.productos{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-inline: 10%;
+}
+
+.productos .card-body {
+    margin: 20px;
+    width: 250px;
+    padding: 0;
+}
+
+.productos .card {
+   margin: 2%;
+   margin-top: 5%;
+   border: none;
+}
+
+.productos .card img {
+    width: 250px;
+ 
+}
 
 
 /*  Responsive */
@@ -38,6 +65,7 @@
     .calzados #filtrar {
         margin-right: 50%;
     }
+     
 }
 
 @include iPad {
