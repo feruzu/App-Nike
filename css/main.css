@@ -202,18 +202,32 @@ section.nosotros img {
   flex-wrap: wrap;
   margin-inline: 10%; }
 
+div.productos {
+  margin-top: 70px; }
+
 .productos .card-body {
   margin: 20px;
   width: 250px;
   padding: 0; }
 
 .productos .card {
-  margin: 2%;
-  margin-top: 5%;
+  margin: 50px 50px 50px;
   border: none; }
 
 .productos .card img {
   width: 250px; }
+
+.productos a.btn-primary {
+  background-color: #2C2C2C;
+  padding: 10px 20px;
+  border: none; }
+
+.productos a.btn-primary:hover {
+  opacity: 70%; }
+
+.productos a.btn-primary:active {
+  background-color: #DD2020;
+  opacity: 100%; }
 
 /*  Responsive */
 @media (min-width: 320px) {

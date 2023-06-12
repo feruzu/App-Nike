@@ -41,6 +41,10 @@
     margin-inline: 10%;
 }
 
+div.productos {
+    margin-top: 70px;
+}
+
 .productos .card-body {
     margin: 20px;
     width: 250px;
@@ -48,8 +52,7 @@
 }
 
 .productos .card {
-   margin: 2%;
-   margin-top: 5%;
+   margin: 50px 50px 50px;
    border: none;
 }
 
@@ -57,6 +60,23 @@
     width: 250px;
  
 }
+
+.productos a.btn-primary {
+    background-color: $titulo-black;
+    padding: 10px 20px;
+    border: none;
+}
+
+.productos a.btn-primary:hover {
+    opacity: 70%;
+}
+
+.productos a.btn-primary:active {
+    background-color: $color-rojo;
+    opacity: 100%;
+}
+
+
 
 
 /*  Responsive */
