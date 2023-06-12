@@ -1,0 +1,59 @@
+@import '../variables/variables';
+@import '../base/mixins';
+
+
+.banner #banner-nike {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.calzados {
+    width: 100%;
+    height: 100%;
+    margin-top: 102vh;
+}
+
+.calzados #filtrar {
+    align-items: center;
+    text-align: center;
+    margin-right: 80%;
+}
+
+.calzados #filtrar button {
+    background-color: $titulo-black;
+    padding: 10px 20px;
+}
+
+.calzados a.dropdown-item:active {
+    background-color: $color-rojo;
+}
+
+
+
+/*  Responsive */
+
+@include tel {
+    .calzados #filtrar {
+        margin-right: 50%;
+    }
+}
+
+@include iPad {
+    .calzados #filtrar {
+        margin-right: 70%;
+    }
+}
+
+@include desktop {
+    .calzados #filtrar {
+        margin-right: 70%;
+    }
+}
+
+@include desktop {
+    .calzados #filtrar {
+        margin-right: 80%;
+    }
+}

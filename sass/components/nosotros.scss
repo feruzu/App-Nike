@@ -18,7 +18,8 @@ section.nosotros h1 {
     padding: 10px;
 }
 
-section.nosotros img#championes.championes, img#corriendo.corriendo {
+section.nosotros img#championes.championes,
+img#corriendo.corriendo {
     width: 90px;
     height: 90px;
     margin-left: -400px;
@@ -31,7 +32,8 @@ img#corriendo.corriendo {
     margin-top: 300px;
 }
 
-section.nosotros img#pesas.pesas, img#ejercicio.ejercicio{
+section.nosotros img#pesas.pesas,
+img#ejercicio.ejercicio {
     width: 90px;
     height: 90px;
     margin-left: 350px;
@@ -48,7 +50,6 @@ img#ejercicio.ejercicio {
 
 
 
-
 /*  Responsive */
 
 @include tel {
@@ -59,26 +60,28 @@ img#ejercicio.ejercicio {
 
     section.nosotros h1 {
         font-size: 30px;
-      }
+    }
 
-      section.nosotros img#championes.championes, img#corriendo.corriendo {
+    section.nosotros img#championes.championes,
+    img#corriendo.corriendo {
         width: 60px;
         height: 60px;
         margin-left: -135px;
         margin-top: 80px;
     }
-    
+
     img#corriendo.corriendo {
         margin-top: 200px;
     }
-    
-    section.nosotros img#pesas.pesas, img#ejercicio.ejercicio{
+
+    section.nosotros img#pesas.pesas,
+    img#ejercicio.ejercicio {
         width: 60px;
         height: 60px;
         margin-left: 80px;
         margin-top: 80px;
     }
-    
+
     img#ejercicio.ejercicio {
         margin-top: 200px;
     }
@@ -87,93 +90,98 @@ img#ejercicio.ejercicio {
 @include telefono {
 
     section.nosotros {
-    margin-top: 950px;
-}
+        margin-top: 950px;
+    }
 
 
     section.nosotros h1 {
         font-size: 35px;
-      }
+    }
 
-     section.nosotros img#championes.championes, img#corriendo.corriendo {
+    section.nosotros img#championes.championes,
+    img#corriendo.corriendo {
         width: 60px;
         height: 60px;
         margin-left: -200px;
         margin-top: 80px;
     }
-    
+
     img#corriendo.corriendo {
         margin-top: 300px;
     }
-    
-    section.nosotros img#pesas.pesas, img#ejercicio.ejercicio{
+
+    section.nosotros img#pesas.pesas,
+    img#ejercicio.ejercicio {
         width: 60px;
         height: 60px;
         margin-left: 150px;
         margin-top: 80px;
     }
-    
+
     img#ejercicio.ejercicio {
         margin-top: 300px;
     }
     
-
 }
 
 @include iPad {
     section.nosotros {
-    margin-top: 950px;
+        margin-top: 950px;
     }
 
 
-      section.nosotros img#championes.championes, img#corriendo.corriendo {
+    section.nosotros img#championes.championes,
+    img#corriendo.corriendo {
         width: 70px;
         height: 70px;
         margin-left: -200px;
         margin-top: 80px;
     }
-    
+
     img#corriendo.corriendo {
         margin-top: 300px;
     }
-    
-    section.nosotros img#pesas.pesas, img#ejercicio.ejercicio{
+
+    section.nosotros img#pesas.pesas,
+    img#ejercicio.ejercicio {
         width: 70px;
         height: 70px;
         margin-left: 150px;
         margin-top: 80px;
     }
-    
+
     img#ejercicio.ejercicio {
         margin-top: 300px;
     }
-    
+
 }
 
 @include tablet {
 
     section.nosotros {
-    margin-top: 990px;
-}
-  
-    section.nosotros img#championes.championes, img#corriendo.corriendo {
+        margin-top: 990px;
+    }
+
+    section.nosotros img#championes.championes,
+    img#corriendo.corriendo {
         width: 80px;
         height: 80px;
         margin-left: -300px;
         margin-top: 80px;
     }
-    
+
     img#corriendo.corriendo {
         margin-top: 300px;
     }
-    
-    section.nosotros img#pesas.pesas, img#ejercicio.ejercicio{
+
+    section.nosotros img#pesas.pesas,
+    img#ejercicio.ejercicio {
         width: 80px;
         height: 80px;
         margin-left: 250px;
         margin-top: 80px;
     }
-    
+
     img#ejercicio.ejercicio {
         margin-top: 300px;
     }
@@ -181,9 +189,9 @@ img#ejercicio.ejercicio {
 }
 
 @include desktop1 {
-       section.nosotros {
-    margin-top: 950px;
-}
+    section.nosotros {
+        margin-top: 950px;
+    }
 
 }
 
@@ -191,31 +199,33 @@ img#ejercicio.ejercicio {
 @include desktop {
 
     section.nosotros {
-    margin-top: 1000px;
-}
+        margin-top: 1000px;
+    }
 
     section.nosotros h1 {
         font-size: 50px;
-      }
+    }
 
-      section.nosotros img#championes.championes, img#corriendo.corriendo {
+    section.nosotros img#championes.championes,
+    img#corriendo.corriendo {
         width: 90px;
         height: 90px;
         margin-left: -400px;
         margin-top: 100px;
     }
-    
+
     img#corriendo.corriendo {
         margin-top: 300px;
     }
-    
-    section.nosotros img#pesas.pesas, img#ejercicio.ejercicio{
+
+    section.nosotros img#pesas.pesas,
+    img#ejercicio.ejercicio {
         width: 90px;
         height: 90px;
         margin-left: 350px;
         margin-top: 100px;
     }
-    
+
     img#ejercicio.ejercicio {
         margin-top: 300px;
     }
