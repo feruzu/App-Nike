@@ -3,10 +3,16 @@
   margin: 0;
   padding: 0; }
 
-/* Media Queries */
 /*  Colores primarios */
 /*  Fuentes  */
 /* Media Queries */
+/*  Boton */
+/*  Colores primarios */
+/*  Fuentes  */
+/*  Colores primarios */
+/*  Fuentes  */
+/* Media Queries */
+/*  Boton */
 header img {
   filter: invert(100%) sepia(13%) saturate(2141%) hue-rotate(299deg) brightness(103%) contrast(91%); }
 
@@ -109,7 +115,10 @@ div.calzado-portada {
 
 /*  Colores primarios */
 /*  Fuentes  */
+/*  Colores primarios */
+/*  Fuentes  */
 /* Media Queries */
+/*  Boton */
 section.nosotros {
   align-items: center;
   margin: 0 auto;
@@ -170,7 +179,10 @@ section.nosotros img {
 /*  Responsive */
 /*  Colores primarios */
 /*  Fuentes  */
+/*  Colores primarios */
+/*  Fuentes  */
 /* Media Queries */
+/*  Boton */
 .banner #banner-nike {
   position: absolute;
   width: 100%;
@@ -221,13 +233,11 @@ div.productos {
   background-color: #2C2C2C;
   padding: 10px 20px;
   border: none; }
-
-.productos a.btn-primary:hover {
-  opacity: 70%; }
-
-.productos a.btn-primary:active {
-  background-color: #DD2020;
-  opacity: 100%; }
+  .productos a.btn-primary:hover {
+    opacity: 70%; }
+  .productos a.btn-primary:active {
+    background-color: #DD2020;
+    opacity: 100%; }
 
 /*  Responsive */
 @media (min-width: 320px) {

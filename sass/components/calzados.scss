@@ -62,20 +62,8 @@ div.productos {
 }
 
 .productos a.btn-primary {
-    background-color: $titulo-black;
-    padding: 10px 20px;
-    border: none;
+   @include boton();
 }
-
-.productos a.btn-primary:hover {
-    opacity: 70%;
-}
-
-.productos a.btn-primary:active {
-    background-color: $color-rojo;
-    opacity: 100%;
-}
-
 
 
 
