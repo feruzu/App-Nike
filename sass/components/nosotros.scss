@@ -2,9 +2,9 @@
 @import '../base/mixins';
 
 section.nosotros {
-    margin-top: 1000px;
     text-align: center;
-    height: 70vh;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(66,63,65,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 section.nosotros h1 {
@@ -14,8 +14,9 @@ section.nosotros h1 {
     writing-mode: vertical-lr;
     text-orientation: upright;
     margin: 0 auto;
-    color: $titulos;
+    color: white;
     padding: 10px;
+    height: 100vh;
 }
 
 section.nosotros img#championes.championes,
@@ -23,7 +24,7 @@ img#corriendo.corriendo {
     width: 90px;
     height: 90px;
     margin-left: -400px;
-    margin-top: 100px;
+    margin-top: 400px;
     position: absolute;
     filter: invert(19%) sepia(77%) saturate(2321%) hue-rotate(344deg) brightness(118%) contrast(104%);
 }
@@ -37,7 +38,7 @@ img#ejercicio.ejercicio {
     width: 90px;
     height: 90px;
     margin-left: 350px;
-    margin-top: 100px;
+    margin-top: 400px;
     position: absolute;
     filter: invert(19%) sepia(77%) saturate(2321%) hue-rotate(344deg) brightness(118%) contrast(104%);
 }
@@ -53,11 +54,6 @@ img#ejercicio.ejercicio {
 /*  Responsive */
 
 @include tel {
-
-    section.nosotros {
-        margin-top: 900px;
-    }
-
     section.nosotros h1 {
         font-size: 30px;
     }
@@ -67,11 +63,11 @@ img#ejercicio.ejercicio {
         width: 60px;
         height: 60px;
         margin-left: -135px;
-        margin-top: 80px;
+        margin-top: 280px;
     }
 
     img#corriendo.corriendo {
-        margin-top: 200px;
+        margin-top: 550px;
     }
 
     section.nosotros img#pesas.pesas,
@@ -79,20 +75,15 @@ img#ejercicio.ejercicio {
         width: 60px;
         height: 60px;
         margin-left: 80px;
-        margin-top: 80px;
+        margin-top: 280px;
     }
 
     img#ejercicio.ejercicio {
-        margin-top: 200px;
+        margin-top: 550px;
     }
 }
 
 @include telefono {
-
-    section.nosotros {
-        margin-top: 950px;
-    }
-
 
     section.nosotros h1 {
         font-size: 35px;
@@ -103,11 +94,11 @@ img#ejercicio.ejercicio {
         width: 60px;
         height: 60px;
         margin-left: -200px;
-        margin-top: 80px;
+        margin-top: 280px;
     }
 
     img#corriendo.corriendo {
-        margin-top: 300px;
+        margin-top: 550px;
     }
 
     section.nosotros img#pesas.pesas,
@@ -115,31 +106,27 @@ img#ejercicio.ejercicio {
         width: 60px;
         height: 60px;
         margin-left: 150px;
-        margin-top: 80px;
+        margin-top: 280px;
     }
 
     img#ejercicio.ejercicio {
-        margin-top: 300px;
+        margin-top: 550px;
     }
     
 }
 
 @include iPad {
-    section.nosotros {
-        margin-top: 950px;
-    }
-
 
     section.nosotros img#championes.championes,
     img#corriendo.corriendo {
         width: 70px;
         height: 70px;
         margin-left: -200px;
-        margin-top: 80px;
+        margin-top: 280px;
     }
 
     img#corriendo.corriendo {
-        margin-top: 300px;
+        margin-top: 500px;
     }
 
     section.nosotros img#pesas.pesas,
@@ -147,31 +134,27 @@ img#ejercicio.ejercicio {
         width: 70px;
         height: 70px;
         margin-left: 150px;
-        margin-top: 80px;
+        margin-top: 280px;
     }
 
     img#ejercicio.ejercicio {
-        margin-top: 300px;
+        margin-top: 500px;
     }
 
 }
 
 @include tablet {
 
-    section.nosotros {
-        margin-top: 990px;
-    }
-
     section.nosotros img#championes.championes,
     img#corriendo.corriendo {
         width: 80px;
         height: 80px;
         margin-left: -300px;
-        margin-top: 80px;
+        margin-top: 280px;
     }
 
     img#corriendo.corriendo {
-        margin-top: 300px;
+        margin-top: 500px;
     }
 
     section.nosotros img#pesas.pesas,
@@ -179,28 +162,21 @@ img#ejercicio.ejercicio {
         width: 80px;
         height: 80px;
         margin-left: 250px;
-        margin-top: 80px;
+        margin-top: 280px;
     }
 
     img#ejercicio.ejercicio {
-        margin-top: 300px;
+        margin-top: 500px;
     }
 
 }
 
 @include desktop1 {
-    section.nosotros {
-        margin-top: 950px;
-    }
 
 }
 
 
 @include desktop {
-
-    section.nosotros {
-        margin-top: 1000px;
-    }
 
     section.nosotros h1 {
         font-size: 50px;
@@ -211,7 +187,7 @@ img#ejercicio.ejercicio {
         width: 90px;
         height: 90px;
         margin-left: -400px;
-        margin-top: 100px;
+        margin-top: 600px;
     }
 
     img#corriendo.corriendo {
@@ -223,7 +199,7 @@ img#ejercicio.ejercicio {
         width: 90px;
         height: 90px;
         margin-left: 350px;
-        margin-top: 100px;
+        margin-top: 600px;
     }
 
     img#ejercicio.ejercicio {
