@@ -1,0 +1,28 @@
+@import '../variables/variables';
+@import '../base/mixins';
+
+footer.footer {
+    background-color: $titulo-black;
+    padding: 30px;
+}
+
+footer.footer div {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+footer img {
+    filter: invert(100%) sepia(13%) saturate(2141%) hue-rotate(299deg) brightness(103%) contrast(91%);
+}
+
+footer img:hover {
+    filter: invert(14%) sepia(86%) saturate(6746%) hue-rotate(1deg) brightness(100%) contrast(75%);
+}
+
+footer.footer div img {
+    margin-inline: 15px;
+    cursor: pointer;
+}
