@@ -19,7 +19,8 @@
 <body ontouchstart=""> 
 
     <?php
-    include './includes/templates/header.php';
+    require 'includes/funciones.php';
+    includeTemplate('header');
     ?>
 
     <main>
@@ -181,7 +182,7 @@
 
 
     <?php
-    include './includes/templates/footer.php';
+   includeTemplate('footer');
     ?>
 
 
