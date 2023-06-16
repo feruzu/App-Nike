@@ -2,9 +2,7 @@
 
     // Base de datos
     require '../../includes/config/database.php';
-    conectarDB();
-
-
+    $db = conectarDB();
 
     require '../../includes/funciones.php';
     includeTemplate('header');
@@ -25,19 +23,19 @@
 
   <div class="col-md-4">
     <label for="precio" class="form-label">Precio:</label>
-    <input type="number" class="form-control" id="precio" value="precio" required>
+    <input type="number" class="form-control" id="precio" required>
   </div>
 
   <div class="col-md-4">
     <label for="talle" class="form-label">Talle:</label>
-    <input type="number" class="form-control" id="talle" value="talle" required>
+    <input type="number" class="form-control" id="talle" required>
   </div>
 
 
   <div class="col-md-8">
     <label for="imagen" class="form-label">Imagen</label>
     <div class="input-group has-validation">
-      <span class="input-group-text" id="imagen">Imagen:</span>
+      <span class="input-group-text">Imagen:</span>
       <input type="file" class="form-control" id="imagen" accept="image/jpeg, image/png" required>
     </div>
   </div>

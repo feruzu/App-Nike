@@ -1,10 +1,11 @@
 <?php
-function conectarDB() {
+function conectarDB() : mysqli {
     $db = mysqli_connect('localhost', 'root', 'MiSQL', 'data_base');
 
-    if($db) {
-        echo "Se conecto";
-    }else{
-        echo "No se conecto";
+    if(!$db) {
+        echo "Error, no se pudo conectar a la base de datos";
+        exit;
     }
+
+    return $db;
 }
