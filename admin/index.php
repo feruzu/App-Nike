@@ -6,7 +6,7 @@
 <main class="container seccion">
     <h1>Administrador de Calzados</h1>
 
-    <a href="/admin/propiedades/crear.php">Nueva compra</a>
+    <a href="/admin/propiedades/crear.php">Añadir</a>
 </main>
 
 

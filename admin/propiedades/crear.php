@@ -30,13 +30,15 @@
     ?>
 
 <main class="container seccion">
-    <h1>Titulo paginas</h1>
-
-    <a href="/admin">Volver</a>
+    <h1>Añadir Producto</h1>
 
 
 
-<form id="crear" class="row g-3 needs-validation" novalidate method="POST" action="/admin/propiedades/crear.php">
+
+
+<form id="crear" class="row g-3" method="POST" action="/admin/propiedades/crear.php">
+
+<a href="/admin">Volver</a>
   <div class="col-md-6">
     <label for="titulo" class="form-label">Titulo:</label>
     <input type="text" class="form-control" id="titulo" name="titulo" required>
@@ -74,7 +76,6 @@
 
 
 </main>
-
 
 <?php
    includeTemplate('footer');
