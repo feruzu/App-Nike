@@ -283,5 +283,35 @@ footer.footer div img {
 main {
   height: 100vh; }
 
+/*  Colores primarios */
+/*  Fuentes  */
+/*  Colores primarios */
+/*  Fuentes  */
+/* Media Queries */
+/*  Boton */
 main.container.seccion {
   margin-top: 100px; }
+
+button.btn.btn-primary {
+  background-color: #2C2C2C;
+  padding: 10px 20px;
+  border: none; }
+  button.btn.btn-primary:hover {
+    opacity: 70%; }
+  button.btn.btn-primary:active {
+    background-color: #DD2020;
+    opacity: 100%; }
+
+h1 {
+  text-align: center; }
+
+#crear {
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 20px; }
+
+#crear a {
+  color: #DD2020;
+  font-weight: 700;
+  text-decoration: none; }
