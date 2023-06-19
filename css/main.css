@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -290,7 +291,7 @@ main {
 /* Media Queries */
 /*  Boton */
 main.container.seccion {
-  margin-top: 100px; }
+  margin-top: 150px; }
 
 button.btn.btn-primary {
   background-color: #2C2C2C;
@@ -311,7 +312,61 @@ h1 {
   margin: 0 auto;
   font-size: 20px; }
 
-#crear a {
-  color: #DD2020;
+main.container.seccion a img {
+  margin-top: 3%;
+  margin-left: 10%;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+  filter: invert(18%) sepia(78%) saturate(2686%) hue-rotate(345deg) brightness(112%) contrast(105%); }
+
+main.container.seccion a img:hover {
+  opacity: 50%; }
+
+main.container.seccion a:focus {
+  color: #2C2C2C; }
+
+main.container.seccion.actualizar {
+  text-align: center; }
+
+main.container.seccion.actualizar h1 {
+  margin-bottom: 60px; }
+
+main.container.seccion.actualizar a.añadir {
+  background-color: #2C2C2C;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #FAF2EC;
   font-weight: 700;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 20px; }
+
+main.container.seccion.actualizar a.añadir:hover {
+  background-color: #DD2020;
+  color: #FAF2EC; }
+
+main.container.seccion.actualizar a.añadir:focus {
+  opacity: 60%; }
+
+#crear input,
+#crear textarea,
+#crear input:focus,
+#crear select:focus,
+#crear select,
+#crear input.form-control:focus,
+#crear textarea:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+  background-color: #25252511; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+input[type=number] {
+  -moz-appearance: textfield; }
