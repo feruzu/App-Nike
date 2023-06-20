@@ -60,3 +60,42 @@
     }
     
 }
+
+@mixin botonA(){
+    background-color: $titulo-black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-blanco;
+    text-decoration: none;
+    font-size: 15px;
+
+    &:hover {
+        background-color: $color-rojo;
+        color: $color-blanco;
+    }
+
+    &:focus {
+        opacity: 60%;
+        color: $color-blanco!important;
+    }
+
+}
+
+@mixin botonAñadir(){
+    background-color: $titulo-black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-blanco;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+
+    &:hover {
+        background-color: $color-rojo;
+        color: $color-blanco;
+    }
+
+    &:focus {
+        opacity: 60%;
+    }
+}
