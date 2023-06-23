@@ -11,6 +11,32 @@
     $resultado =  mysqli_query($db, $query);
 
 
+
+    // Eliminar calzado
+    if($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $id = $_POST['id'];
+
+        $id = filter_var($id, FILTER_VALIDATE_INT);
+
+
+        if($id){
+        // Eliminar imagen
+        $query = "SELECT imagen FROM calzados WHERE id = $id";
+        $resultado = mysqli_query($db, $query);
+        $calzados = mysqli_fetch_assoc($resultado);
+
+        unlink('../imagenes/' . $calzados['imagen']);
+
+        // Eliminar archivo     
+        $query = "DELETE FROM calzados WHERE id = $id";
+        $resultado = mysqli_query($db, $query);
+
+            if($resultado){
+                header('location: /admin');
+            }
+        }
+    }
+
     require '../includes/funciones.php';
     includeTemplate('header');
     ?>
@@ -42,7 +68,14 @@
                 <td>$<?php echo $calzados['precio']; ?></td>
                 <td><?php echo $calzados['talle']; ?></td>
                 <td>
-                    <a class="boton-borrar" href="">Borrar</a>
+
+                <form method="POST" class="formulario-botones">
+                <input type="hidden" name="id" value="<?php echo $calzados['id']; ?>">
+
+                <input type="submit" class="boton-borrar" value="Eliminar"></input>
+                </form>   
+                    
+
                     <a class="boton-actualizar" href="admin/calzados/actualizar.php?id=<?php echo $calzados['id']; ?>">Actualizar</a>
                 </td>
             </tr>
