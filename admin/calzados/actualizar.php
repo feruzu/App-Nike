@@ -38,19 +38,21 @@
   
   $carpetaIMG = '../../imagenes/';
 
+  $nombreImg = '';
+
   if($imagen['name']) {
     // Eliminar imagen previa si se repite el nombre al actualizar
     unlink($carpetaIMG . $calzado['imagen']);
- }
 
+    // Generar nombre único 
+    $nombreImg = md5( uniqid(rand(), true )) . ".jpg";
 
+    // Subir img
+    move_uploaded_file($imagen['tmp_name'], $carpetaIMG . $nombreImg);
+  } else {
+    $nombreImg = $calzado['imagen'];
+  }
 
-  // Generar nombre único 
-  $nombreImg = md5( uniqid(rand(), true )) . ".jpg";
-
-
-  // Subir img
-  move_uploaded_file($imagen['tmp_name'], $carpetaIMG . $nombreImg);
 
 
   // Insertar en Base de Datos
