@@ -1,6 +1,12 @@
 @import '../variables/variables';
 @import '../base/mixins';
 
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 footer.footer {
     background-color: $titulo-black;
     padding: 30px;

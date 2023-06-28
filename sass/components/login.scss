@@ -1,0 +1,38 @@
+h1.iniciar-sesion {
+    margin-bottom: 50px;
+}
+
+.formulario label.col-sm-2.col-form-label {
+    padding-left: 0;
+}
+
+form#iniciar-sesion{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 20px;
+    height: 68vh;
+}
+
+#form {
+    margin-top: 200px;
+}
+
+#campo-form {
+    justify-content: start;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.formulario input,
+.formulario input:focus,
+.formulario input.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+    background-color: #25252511;
+}

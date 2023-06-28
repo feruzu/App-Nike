@@ -5,6 +5,10 @@ main.container.seccion {
     margin-top: 150px;
 }
 
+main.container.seccion {
+    height: 73vh;
+} 
+
 button.btn.btn-primary{
     @include boton();
 }
@@ -110,7 +114,7 @@ table.productos {
         font-size: 15px
     }
 
-    a.boton-borrar{
+    input.boton-borrar[type=submit]{
        @include botonB();
     }
 
@@ -118,5 +122,34 @@ table.productos {
         @include botonA();
     }
 
-    
+}
+
+.formulario-botones {
+    display: inline;
+}
+
+// Responsive 
+
+@include tel {
+    main.container.seccion {
+        height: 98vh;
+    } 
+}
+
+@include telefono {
+    main.container.seccion {
+        height: 80vh;
+    } 
+}
+
+@include tablet {
+    main.container.seccion {
+        height: 75vh;
+    } 
+}
+
+@include desktop {
+    main.container.seccion {
+        height: 73vh;
+    } 
 }
