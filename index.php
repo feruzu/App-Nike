@@ -19,7 +19,7 @@
 <body ontouchstart=""> 
 
     <?php
-    require 'includes/funciones.php';
+    require './includes/funciones.php';
     includeTemplate('header');
     ?>
 
@@ -65,126 +65,14 @@
       </div>
 
 
-
-      <div class="productos">
-
-        <div class="card">
-          <img src="./img/calzado-negro.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike Air Max</h5>
-            <p>$6.000</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./img/calzado-blanco.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike</h5>
-            <p>$7.000</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./img/calzado-rosado.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike Rosa</h5>
-            <p>$5.999</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./img/calzado-verde.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike Verdes</h5>
-            <p>$10.000</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./img/calzado-amarillo.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike Air Amarillos</h5>
-            <p>$7.600</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./img/calzado-air-max.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike Air Max Jordan</h5>
-            <p>$9.000</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./img/calzado-skateboard.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike Skateboard</h5>
-            <p>$3.900</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./img/calzado-bryant-bulldog.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike Bryant Bulldog</h5>
-            <p>$9.999</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./img/calzado-air-max-97.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike Air Max 97</h5>
-            <p>$11.000</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./img/calzado-nike-zoom.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike Zoom</h5>
-            <p>$6.999</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./img/calzado-air-max-blanco-rojo.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike Air Max</h5>
-            <p>$9.999</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="./img/calzado-air-max-huarache.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Nike Air Max Huarache</h5>
-            <p>$11.000</p>
-            <a href="#" class="btn btn-primary">Ver más</a>
-          </div>
-        </div>
-
-      </div>
+    <?php include 'calzados.php' ?>
+      
       
     </section>
-
 
     <?php
    includeTemplate('footer');
     ?>
-
 </body>
 
 </html>
