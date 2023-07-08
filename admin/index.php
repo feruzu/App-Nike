@@ -41,7 +41,7 @@
     includeTemplate('header');
     ?>
 
-<main class="container seccion actualizar">
+<section class="container seccion actualizar">
     <h1>Administrador de Calzados</h1>
 
     <a href="/admin/calzados/crear.php" class="añadir">Añadir</a>
@@ -82,7 +82,7 @@
             <?php endwhile; ?>
         </tbody>
     </table>
-</main>
+</section>
 
 <?php
     mysqli_close($db);
